@@ -40,8 +40,8 @@ SOCKS_VERSION = 5                           # socks版本
 
 class DYProxy(Tcp):
     # 用户认证 用户名/密码
-    username = 'dyboy'
-    password = '123456'
+    username = '123'
+    password = '321'
 
     def handle(self):
         print("客户端：", self.client_address, " 请求连接！")
